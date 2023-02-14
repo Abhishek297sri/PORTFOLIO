@@ -1,0 +1,234 @@
+h1{
+    color: red;
+    padding-left: 50px;
+}
+.link{
+    position: relative;
+    color: #50C7C7;
+    transition:  color 0.3ms;
+    size: 10cm;
+    font-size:  35px;
+    text-decoration: none;
+  
+    
+
+}    
+
+
+
+.link :hover{
+    color:#507BC7;
+    transform: scale(1.8);
+    transition-property: all;
+}
+.facebook :hover{
+    color: #A13F95;
+    transform: scale(1.8);
+    transition-property: all;}
+
+
+ .insta :hover{
+        color:#B950C7;
+        transform: scale(1.8);
+            transition-property: all;
+          }
+        
+        .twitter :hover{
+            color:blueviolet;
+            transform: scale(1.8);
+            transition-property: all;
+        } 
+        
+ .facebook{
+    color: #50C7C7;
+    transition:  color 0.3ms;
+    size: 10cm;
+    font-size:  35px;
+    text-decoration: none; }
+            
+    .twitter{
+        color: #50C7C7;
+        transition:  color 0.3ms;
+        size: 10cm;
+        font-size:  35px;
+        text-decoration: none;   }
+
+
+ .insta {
+            font-size: 35px;
+            text-decoration: none;
+ }        
+
+.navbar{
+            
+    position: relative;
+      display: flex;      
+      background-color:#4F3402;
+height: 10vh;
+
+ }
+         
+ .social-icon{
+           
+   position: relative;
+ /* left: 750px;
+    top: 5px; */
+           
+ }
+   .social-icon a{
+     padding: 0 12px;
+ }
+  .container-fluid{
+      margin: 0;
+    padding: 0;
+  }
+   .h{
+    width: 510px;
+   
+    }
+
+ 
+
+  .li{
+  text-align: left;
+  
+   
+  }
+
+
+
+  body{
+      /* background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmVzc2lvbmFsJTIwYmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60); */
+  background-image: url(https://images.unsplash.com/photo-1531315630201-bb15abeb1653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2Zlc3Npb25hbCUyMGJhY2tncm91bmQlMjBpbWFnZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+  width: 100%;
+  height: max-content;
+     }
+
+
+    html{
+      height: 100%;
+    }
+     
+  
+   .kk{
+        
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+      }
+      .column1{
+        width: 40%;
+      }
+      .column2{
+        width: 45%;
+      }
+      .my_name{
+        padding: 0;
+      }
+      .kk h2{
+       
+        border: 3px solid black;
+        background-color: black;
+        color:red;
+        width: max-content;
+        padding: 0 1rem;
+        margin: 1rem 0;
+      } 
+      
+      .kk p{
+   
+        background-color:pink;
+        border:15px pink solid;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        color:red;
+      }
+  
+  @media (max-width:1245px) {
+    .column1{
+      width: 48%;
+    }
+    .column2{
+      width: 48%;
+    }
+    .navbar{
+      margin-bottom: 1rem;
+    }
+  }  
+  @media (max-width:1145px) {
+   .kk p{
+    font-size: 1rem;
+   }
+   .h{
+    height: 350px;
+    width: 350px;
+   }
+  }  
+      
+  @media (max-width:700px) {
+.kk{
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.column1{
+  width: 90%;
+  justify-content: center;
+  display: flex;
+}
+.column2{
+  width: 90%;
+}
+body{
+  background-repeat: repeat;
+}
+  }  
+
+  @media (max-width:600px) {
+    .navbar{
+            
+      position: relative;
+        display: flex;      
+        background-color: grey;
+  height: max-content;
+  align-items: center;
+  margin-bottom: 1rem;
+  
+   }
+   .navbar h1{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+   }
+   .social-icon{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    
+   }
+  }
+      
+  @media (max-width:400px) {
+    .h{
+      height: 300px;
+      width: 300px;
+    }
+  }
+  @media (max-width:300px) {
+    .h{
+      height: 270px;
+      width: 270px;
+    }
+  }
+
